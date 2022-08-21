@@ -34,7 +34,7 @@
     color: $gray-400;
 }
 
-.form-check-input.checkbox-circle-style {
+.form-check-input[type="checkbox"].checkbox-circle-style {
     appearance: none;
     width: 20px;
     height: 20px;
