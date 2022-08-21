@@ -11875,7 +11875,7 @@ a {
   color: #ced4da;
 }
 
-.form-check-input.checkbox-circle-style {
+.form-check-input[type="checkbox"].checkbox-circle-style {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
