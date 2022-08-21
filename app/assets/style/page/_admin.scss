@@ -47,7 +47,7 @@
 .checkbox-circle-style:checked {
     background-color: #198754;
     border-color: #198754;
-    background-image: url("/assets/images/outline_done_white_24dp.png");
+    background-image: url("./assets/images/outline_done_white_24dp.png");
     background-position: center;
 }
 
@@ -59,7 +59,7 @@
     background-position: right 1rem center;
     background-color: #fff;
     appearance: none;
-    background-image: url("/assets/images/outline_expand_more_black_24dp.png");
+    background-image: url("./assets/images/outline_expand_more_black_24dp.png");
 }
 
 
@@ -75,7 +75,7 @@
 }
 
 .checkbox-style:checked{
-    background-image: url("/assets/images/outline_done_white_24dp.png");
+    background-image: url("./assets/images/outline_done_white_24dp.png");
     background-position: center;
     background-color: $gray-900;
 }
