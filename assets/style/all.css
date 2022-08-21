@@ -11875,7 +11875,7 @@ a {
   color: #ced4da;
 }
 
-.checkbox-circle-style {
+.form-check-input.checkbox-circle-style {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -11884,27 +11884,12 @@ a {
   border: 1px solid #198754;
   border-radius: 50%;
   margin-right: 10px;
-  cursor: pointer;
-}
-
-.checkbox-circle-style:checked {
-  background-color: #198754;
-  border-color: #198754;
-  background-image: url("/assets/images/outline_done_white_24dp.png");
-  background-position: center;
 }
 
 .select-style {
   outline: none;
   padding: 16px;
-  cursor: pointer;
-  background-repeat: no-repeat;
-  background-position: right 1rem center;
-  background-color: #fff;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  background-image: url("/assets/images/outline_expand_more_black_24dp.png");
+  border: 1px solid #212529;
 }
 
 .checkbox-style {
@@ -11916,13 +11901,11 @@ a {
   border: 2px solid #212529;
   margin-right: 8px;
   border-radius: 2px;
-  cursor: pointer;
 }
 
 .checkbox-style:checked {
-  background-image: url("/assets/images/outline_done_white_24dp.png");
-  background-position: center;
   background-color: #212529;
+  border: 2px solid #212529;
 }
 
 table thead .row-style {
