@@ -1,0 +1,161 @@
+.aside{
+    height: 100vh;
+    width: 296px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $gray-100;
+}
+
+.nav{
+    padding-top: 32px;
+    gap: 20px;
+    .logo-img{
+        display: block;
+    }
+    &__item{
+        gap: 16px;
+        justify-content: start;
+        position: relative;
+        z-index: 10;
+    }
+    &__link{
+        background: none;
+        border: 0;
+        color: $dark;
+        text-decoration: none;
+        font-weight: 700;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        &.active{
+            &::before {
+                content: '';
+                position: absolute;
+                height: 100%;
+                width: 4px;
+                left: -32px;
+                top: 0;
+                background-color: $primary;
+            }
+            color: $primary;
+            &+.material-icons{
+                color: $primary;
+            }
+        }
+    }
+}
+
+.user-info{
+    &__img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &__name{
+        font-weight: 700;
+    }
+    &__email{
+        color: $gray-600;
+    }
+}
+
+.nav--hover{
+    &:hover{
+        ::before{
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 296px;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background-color: $gray-200;
+            margin-left: -32px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fz-12{
+    font-size: 12px;
+}
+
+.fz-14{
+    font-size: 14px;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+
+.fz-24{
+    font-size: 24px;
+}
+
+.margin-t6{
+    margin-top: 6px;
+}
+
+.margin-t19{
+    margin-top: 19px;
+}
+
+.margin-t18{
+    margin-top: 18px;
+}
+
+.margin-b12{
+    margin-bottom: 12px;
+}
+
+
+.padding-b32{
+    padding-bottom: 32px;
+}
+
+.gray-400{
+    color: $gray-400;
+}
+
+.gray-600{
+    color: $gray-600;
+}
+
+.line-height-2{
+    line-height: 2;
+}
+
+.line-height-1{
+    line-height: 1;
+}
+
+.border-gray400{
+    border: 1px solid $gray-400;
+}
+
+.rounded-sm{
+    border-radius: 0.125rem;
+}
+
+
+
+

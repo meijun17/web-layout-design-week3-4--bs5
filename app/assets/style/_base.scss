@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    color: $gray-900;
+    font-size: 1rem;
+}
+
+button{
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: $gray-900;
+}

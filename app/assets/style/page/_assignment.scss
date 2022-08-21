@@ -1,0 +1,111 @@
+.main__container{
+    width: calc( 100% - 296px );
+    padding-right: 32px;
+    padding-left: 32px;
+    margin: 0 auto;
+}
+
+.card{
+    max-height: calc( 100vh - 216px );
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.assignment__content{
+    height: calc( 100vh - 112px );
+}
+
+.header{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    .title{
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-right: 50px;
+    }
+    .link{
+        height: 24px;
+    }
+}
+
+.dropdown{
+    .material-icons{
+        color: $primary;
+        margin-left: 9px;
+    }
+}
+
+.list{
+    &-border{
+        border: 1px solid $gray-400;
+        border-radius: 2px;
+    }
+    &__item{
+        padding: 12px;
+        &.active{
+            background-color: $gray-100;
+        }
+        &:hover{
+            background-color: $gray-200;
+        }
+        &:not(:first-child){
+            border-top: 1px solid $gray-400;
+        }
+    }
+}
+
+.card{
+    &.list{
+        &-border{
+            border: 1px solid $gray-400;
+            border-radius: 2px;
+        }
+    }
+    &-header{
+        background-color: $gray-100;
+        padding: 0.75rem 1rem;
+    }
+    &-body{
+        padding: 0;
+    }
+    .main__comment{
+        padding: 16px 32px 0px 16px;
+    }
+    .others__comment{
+        padding: 0px 32px 22px 16px;
+    }
+    .user-img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .comment__text{
+        padding-bottom: 16.5px;
+        border-bottom: 1px solid $gray-400;
+    }
+    .document-btn{
+        border: 1px solid $gray-400;
+        background-color: $gray-100;
+        padding: 0.5rem 0.75rem;
+        width: 176px;
+    }
+}
+
+
+.ckeditor{
+    .ck.ck-toolbar,
+    .ck.ck-editor__editable_inline{
+        // 蓋過預設border
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+    .ck.ck-editor__editable_inline{
+        height: 280px;
+    }
+}
+
+
+
+

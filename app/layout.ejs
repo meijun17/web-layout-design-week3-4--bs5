@@ -6,59 +6,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
-    <!-- Material Icon -->
-    <link href="<https://fonts.googleapis.com/css2?family=Material+Icons>"
-  rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
+    <div class="d-flex">
+      <div class="aside">
+        <div class="logo-and-nav">
+          <a href="#" class="logo-img">
+            <img src="assets/images/logo-ANSWER.svg" alt="logo-img">
+          </a>
+          <ul class="nav flex-column">
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+              <a class="nav__link"
+                 href="#" 
+                 >Dashboard
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
+              <span class="material-icons">
+                assessment
+              </span>     
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+              <a class="nav__link"
+                 href="#" 
+                 >Question
+              </a>
+              <span class="material-icons">
+                question_answer
+              </span>
+            </li>
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+                <a href="./assignment.html"
+                   class="nav__link <%= (title === 'Assignment' ? 'active' : '' ) %>"
+                   >
+                   Assignment
+                </a>
+              <span class="material-icons">
+                assignment
+              </span>
+            </li>
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+                <a class="nav__link"
+                     href="#" 
+                    >Course
+                </a>
+              <span class="material-icons">
+                video_library
+              </span>
+            </li>
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+                <a href="./admin.html"
+                   class="nav__link <%= (title === 'Admin' ? 'active' : '' ) %>"
+                  >Admin
+                </a>
+              <span class="material-icons">
+                supervisor_account
+              </span>
+            </li>
+            <li class="d-flex align-items-center flex-row-reverse nav__item nav--hover">
+                <a class="nav__link"
+                   href="#" 
+                  >Settings
+                </a>
+              <span class="material-icons">
+                settings
+              </span>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
+        </div>
+        <div class="user-info d-flex align-items-center">
+          <img class="user-info__img" 
+               src="./assets/images/andychen.jpeg" 
+               alt="user-img">
+          <a class="ms-4" href="#">
+            <p class="user-info__name mb-1">Andy Chen</p>
+            <p class="user-info__email">andy0401@mail.com</p>
+          </a>
         </div>
       </div>
-    </nav>
-
-    <%- contents %>
-
-    <footer class="footer">
-      footer
-    </footer>
-
+     
+      
+  
+      <%- contents %>
+    </div>
+    
     <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
     <script src="./assets/js/all.js"></script>
+    
+
   </body>
 
 </html>

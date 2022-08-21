@@ -1,6 +1,9 @@
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+@import './reset.scss';
+@import './base.scss';
 
-
-@import './layout/index.scss'
+@import './layout/aside.scss';
+@import './page/assignment';
+@import './page/admin';
