@@ -11724,66 +11724,6 @@ a {
   margin-left: -32px;
 }
 
-.fz-12 {
-  font-size: 12px;
-}
-
-.fz-14 {
-  font-size: 14px;
-}
-
-.fz-20 {
-  font-size: 20px;
-}
-
-.fz-24 {
-  font-size: 24px;
-}
-
-.margin-t6 {
-  margin-top: 6px;
-}
-
-.margin-t19 {
-  margin-top: 19px;
-}
-
-.margin-t18 {
-  margin-top: 18px;
-}
-
-.margin-b12 {
-  margin-bottom: 12px;
-}
-
-.padding-b32 {
-  padding-bottom: 32px;
-}
-
-.gray-400 {
-  color: #ced4da;
-}
-
-.gray-600 {
-  color: #6c757d;
-}
-
-.line-height-2 {
-  line-height: 2;
-}
-
-.line-height-1 {
-  line-height: 1;
-}
-
-.border-gray400 {
-  border: 1px solid #ced4da;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .main__container {
   width: calc( 100% - 296px);
   padding-right: 32px;
@@ -12080,6 +12020,66 @@ table tbody .row-style td {
 .input-text-style:read-only {
   background-color: #f8f9fa;
   border: none;
+}
+
+.fz-12 {
+  font-size: 12px;
+}
+
+.fz-14 {
+  font-size: 14px;
+}
+
+.fz-20 {
+  font-size: 20px;
+}
+
+.fz-24 {
+  font-size: 24px;
+}
+
+.margin-t6 {
+  margin-top: 6px;
+}
+
+.margin-t19 {
+  margin-top: 19px;
+}
+
+.margin-t18 {
+  margin-top: 18px;
+}
+
+.margin-b12 {
+  margin-bottom: 12px;
+}
+
+.padding-b32 {
+  padding-bottom: 32px;
+}
+
+.gray-400 {
+  color: #ced4da;
+}
+
+.gray-600 {
+  color: #6c757d;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.border-gray400 {
+  border: 1px solid #ced4da;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 /*# sourceMappingURL=all.css.map */
